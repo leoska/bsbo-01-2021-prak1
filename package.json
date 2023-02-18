@@ -1,0 +1,21 @@
+{
+  "name": "prak1",
+  "version": "1.0.0",
+  "description": "http-server example with react-app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon index.js"
+  },
+  "keywords": [
+    "mirea",
+    "nodejs",
+    "react"
+  ],
+  "author": "mirea",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}

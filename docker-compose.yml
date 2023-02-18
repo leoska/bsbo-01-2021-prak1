@@ -36,3 +36,13 @@ services:
       - ./data/pgadmin:/var/lib/pgadmin:rw
     depends_on:
       - postgres
+
+  http-server:
+    image: prak1-bsbo-01-2021:latest
+    hostname: bsbo-01-2021
+    container_name: bsbo-01-2021
+    ports:
+      - "127.0.0.1:25565:25565"
+    volumes:
+      - ./index.js:/app/index.js:ro
+      - ./app:/app/app:ro
