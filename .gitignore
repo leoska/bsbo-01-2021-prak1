@@ -1,3 +1,4 @@
 node_modules
 data/pgadmin
 data/postgresdata
+.DS_Store
