@@ -1,0 +1,11 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+.text {
+    font-size: 40px;
+}
+
+.form__button {
+    cursor: pointer;
+}
