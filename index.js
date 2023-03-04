@@ -7,6 +7,6 @@ function successFullAppStarted() {
     console.log('Server successfully started on port ' + port + ', welcome BSBO-01-2021');
 }
 
-app.use('/', express.static('app'));
+app.use('/', express.static('build'));
 
 app.listen(port, successFullAppStarted);
