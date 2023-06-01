@@ -45,4 +45,4 @@ services:
       - "127.0.0.1:25565:25565"
     volumes:
       - ./index.js:/app/index.js:ro
-      - ./app:/app/app:ro
+      - ./application/build:/app/build:ro
